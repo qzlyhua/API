@@ -1,4 +1,4 @@
-package cn.qzlyhua.doc.annotation.response;
+package cn.qzlyhua.api.annotation.response;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;

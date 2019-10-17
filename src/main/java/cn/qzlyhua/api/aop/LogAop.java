@@ -1,4 +1,4 @@
-package cn.qzlyhua.doc.aop;
+package cn.qzlyhua.api.aop;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.extern.slf4j.Slf4j;
@@ -31,7 +31,7 @@ public class LogAop {
     private static ThreadLocal<Long> startTime = new ThreadLocal<>();
     private ObjectMapper objectMapper = new ObjectMapper();
 
-    @Pointcut("execution(public * cn.qzlyhua.doc..*Controller..*(..))")
+    @Pointcut("execution(public * cn.qzlyhua.api..*Controller..*(..))")
     public void webLog() {
     }
 

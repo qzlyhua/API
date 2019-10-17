@@ -1,9 +1,9 @@
-package cn.qzlyhua.doc.controller;
+package cn.qzlyhua.api.controller;
 
-import cn.qzlyhua.doc.annotation.response.AppException;
-import cn.qzlyhua.doc.annotation.response.ResponseCode;
-import cn.qzlyhua.doc.annotation.response.ResponseResult;
-import cn.qzlyhua.doc.annotation.response.StandardResponse;
+import cn.qzlyhua.api.annotation.response.AppException;
+import cn.qzlyhua.api.annotation.response.ResponseCode;
+import cn.qzlyhua.api.annotation.response.ResponseResult;
+import cn.qzlyhua.api.annotation.response.StandardResponse;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Controller;
 import org.springframework.util.Assert;

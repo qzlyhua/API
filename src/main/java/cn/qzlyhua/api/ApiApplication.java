@@ -1,4 +1,4 @@
-package cn.qzlyhua.doc;
+package cn.qzlyhua.api;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -7,10 +7,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @author Yang Hua
  */
 @SpringBootApplication
-public class DocApplication {
+public class ApiApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(DocApplication.class, args);
+        SpringApplication.run(ApiApplication.class, args);
     }
 
 }

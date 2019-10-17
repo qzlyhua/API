@@ -1,4 +1,4 @@
-package cn.qzlyhua.doc.annotation.response;
+package cn.qzlyhua.api.annotation.response;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

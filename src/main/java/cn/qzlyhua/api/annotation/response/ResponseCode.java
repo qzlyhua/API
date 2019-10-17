@@ -1,4 +1,4 @@
-package cn.qzlyhua.doc.annotation.response;
+package cn.qzlyhua.api.annotation.response;
 
 /**
  * 响应码 枚举类
