@@ -26,7 +26,7 @@ public class HelloController {
      *
      * @return
      */
-    @RequestMapping("/hello1")
+    @RequestMapping({"/hello", "/hello1"})
     @ResponseBody
     public String hello1() {
         return "hello String";

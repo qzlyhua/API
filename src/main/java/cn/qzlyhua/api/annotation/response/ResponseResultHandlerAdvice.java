@@ -29,7 +29,7 @@ public class ResponseResultHandlerAdvice implements ResponseBodyAdvice {
             return body;
         } else {
             ResponseResult responseResult = new ResponseResult(ResponseCode.SUCCESS.getCode(), ResponseCode.SUCCESS.getMessage(), body);
-            if (MediaType.TEXT_PLAIN.equals(mediaType)) {
+            if (MediaType.TEXT_PLAIN.equals(mediaType) || MediaType.TEXT_HTML.equals(mediaType)) {
                 response.getHeaders().setContentType(MediaType.APPLICATION_JSON);
                 return responseResult.toString();
             }
