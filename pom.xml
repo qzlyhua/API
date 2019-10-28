@@ -11,7 +11,7 @@
     <groupId>cn.qzlyhua</groupId>
     <artifactId>api</artifactId>
     <version>0.0.1</version>
-    <name>api</name>
+    <name>API</name>
     <description>Office file operation</description>
 
     <properties>
